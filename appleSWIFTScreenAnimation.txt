@@ -1,0 +1,35 @@
+xcode 
+developer.apple.com/resources
+single view application
+Main.storyboard shows screen
+
+let num1 = self.firstNumber.text! as NSString // (force to be string not null)(NS object)
+// same for n2
+
+let value1 = num1.floatValue
+// same for num2
+
+print(value1)
+
+let sum = value1 + value2
+self.sumText.text = "Sum: \(sum)"
+
+
+
+
+
+import UIKit
+class testVC: UIViewController{
+override func viewDidLoad(){
+super.viewDidLoad()
+
+self.dismissViewControllerAnimated(true, completion: all)
+
+
+
+Hold control and drag
+button: drag to next page
+	modally: scrolls up from bottom, no back button
+
+
+System.out.println("THE FREAK IS BACK")
